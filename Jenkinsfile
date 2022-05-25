@@ -1,6 +1,6 @@
 pipeline {
         agent { 
-stages(none)
+stage(none)
     }
     stages {
         stage('Run schemachange') {
